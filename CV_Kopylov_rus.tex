@@ -1,0 +1,234 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[russian]{babel}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3.4cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Валентин} % Your first name
+\familyname{Копылов} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{Molodezhnaya st., 3}{Moscow, Russia, 119296}
+\phone{+7 (999) 825 72 66}
+%\mobile{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{wally.kopylov@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[80pt][0.2pt]{src/photo} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{}{} % Letter recipient
+\date{\today} % Letter date
+\opening{Greetings,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+% letter
+
+
+%\makeletterclosing % Print letter signature
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Личная информация}
+
+\cvitem{}{Дата рождения: 28.07.1999}
+\cvitem{}{Место рождения: Москва}
+
+\section{Образование}
+
+\cventry{2017 -- н.в.}{Бакалавр <<Политологии>>}{ \newline Национальный Исследовательский Университет -- \newline Высшая Школа Экономики}{Москва}{}{}
+
+\section{Опыт работы}
+
+\cventry{Май -- Октябрь 2020}{Стажер - исследователь}{\newline Лаборатория сравнительных социальных исследований\newline (ЛССИ НИУ ВШЭ)}{Москва}{}{}
+
+
+\section{Ассистентство}
+
+\cvitem{Учебный ассистент}{\textbf{\href{https://www.hse.ru/ba/political/courses/219865348.html}{Математика и статистика}} \newline  NRU HSE: <<Политология>>, 1 курс \newline 2019}
+
+\cvitem{}{\textbf{\href{https://www.hse.ru/ba/soc/courses/325422333.html}{Анализ данных в R}} \newline  НИУ ВШЭ: <<Социология>>, 4 курс \newline 2019}
+
+\cvitem{}{\textbf{\href{https://www.hse.ru/ba/economics/courses/292669321.html}{Наука о данных}} \newline  НИУ ВНЭ: <<Экономика>>, 2 курс \newline 2020}
+
+\cvitem{}{\textbf{\href{https://www.hse.ru/ba/political/courses/292686662.html}{Теория вероятностей и математическая статистика}} \newline  НИУ ВШЭ: <<Политология>>, 2 курс \newline 2020}
+
+\cvitem{}{\textbf{\href{https://www.hse.ru/ba/political/courses/292675674.html}{Дополнительные главы теории вероятностей и математической статистики}} \newline  НИУ ВШЭ: <<Политология>>, 2 курс \newline 2020}
+
+\cvitem{Ассистент проекта}{\href{https://escapes.hse.ru/mnd_place}{Escapes from modernity:}  \newline \textbf{Democratic Constitutional Design: Negotiating Civil Engagement, Institutional Control and the Common Good} \newline NRU HSE \& University of Iceland}
+
+\section{Научные школы}
+
+\cvitem{Летние и зимние школы:}{IPSA -- HSE 2019 \newline International Summer School for Methods of Political \& Social Research:  \newline \textbf{\href{https://drive.google.com/open?id=1yNjB8j2GKXyZqtUkf-vChJnCE4hAK5yd}{Bayesian Statistics}} \newline (St. Petersburg, Russia, 8.08 -- 17.08.2019)}
+
+
+\cvitem{}{\href{https://ecpr.eu/Events/PanelDetails.aspx?PanelID=8445&EventID=131}{ECPR 2019}  \newline \textbf{\href{https://drive.google.com/open?id=1RkLT8XN8F2OPQAijhZ8ANkdorTCjmBvH}{Advanced Topics in Applied Regression}} \newline Central European University \newline (Budapest, Hungary, 4.08 -- 9.08.2019)}
+
+\cvitem{}{\href{https://lcsr.hse.ru/summer_school/summer2018/}{7th LCSR Summer School:} \newline \textbf{\href{https://drive.google.com/open?id=1ge84hHovxy8o7wIc2XNGnA3O8eLvvhSH}{Bayesian Approach in Social Science}} \newline (Moscow, Russia, 20.08 -- 31.08.2018)}
+
+\cvitem{}{IPSA -- HSE 2018 \newline International Summer School for Methods of Political \& Social Research:  \newline \textbf{\href{https://drive.google.com/open?id=1d7211UYEkuRkHQj4JUGLrU5fCKuPafLv}{Regression Analysis}} \newline (St. Petersburg, Russia, 25.07 -- 10.08.2018)}
+
+
+\cvitem{}{\href{https://escapes.hse.ru/mnd_place}{Escapes from modernity:}  \newline \textbf{\href{https://drive.google.com/open?id=1sVoovZCjU_Hw_KyXQBo9vXCvGajicS71}{Democratic Constitutional Design:} Negotiating Civil Engagement, Institutional Control and the Common Good} \newline NRU HSE \& University of Iceland \newline (Reykjavik, Iceland, 20.07 -- 25.07.2019)}
+
+\cvitem{}{\href{https://escapes.hse.ru/mnv_place}{Escapes from modernity:}  \newline \textbf{\href{https://drive.google.com/open?id=12y60FKDSPzg91VhU_Y7FO23urZMNELzx}{Politics of Violence in post-Soviet states and societies}} \newline (Ilia State University, Georgia, 31.03 -- 6.04.2018)}
+
+
+\cvitem{}{\href{https://escapes.hse.ru/pm_place}{Escapes from modernity:} \newline \textbf{\href{https://drive.google.com/open?id=1bY4jB8SunfeMpZYxg8sU7LceZPa4zfQe}{People and territories: Biopower and Geopolitics in the Black sea and the Caucasus}} \newline (University of Tartu, Estonia, 11.02 -- 17.02.2018)}
+
+\cvitem{}{Summer University Prague 2019 \newline \textbf{\href{https://drive.google.com/open?id=1JnxlgsZ6LvxNMLB31psK7sX6zYgmrPQ0}{European identity between Unity and Diversity}} \newline Charles University \newline (Prague, Czech Republic, 7.09 -- 21.09.2019)}
+
+
+
+
+
+\newpage 
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{Достижения}
+
+\cvitem{\href{https://drive.google.com/file/d/17i_T5Q3tPHaQlcGJTnqTS6d6T7LioWzW/view?usp=sharing}{Лучшее техническое решение}}{\href{https://www.hse.ru/dataculture/hackathon}{Data Culture Hack:} \newline Открытый хакатон для студентов по IT-решениям
+в сфере социальных наук,\newline ВШЭ 2019}
+
+
+%\section{Course Papers}
+
+%\cvitem{Title}{\emph{(2020) Political Regime as a Moderator Between Political Trust and Subjective Evaluation of Economic Performance }}
+%\cvitem{Abstract}{The paper addresses the role of political regime as a moderator in a relationship between the subjective evaluation of economic performance and political trust based on Afrobarometer survey. In introduction, author outlines the role of political trust as an indicator of political legitimacy of state and proceeds to its major determinant - economic performance. However, the impact of economic performance varies across different political regimes, which leads to the potential discrepancy of this liaison. In theoretical part, author investigates different conceptualisations of political trust and captures the mechanisms of economic performance impact, concluding by remarks concerning role of political regime in their relationship. Further, author elaborates on cross-national measurement equivalence issue and proceeds to factor-analytic model of political trust, which achieves metric equivalence, allowing to compare the effects across different populations. Finally, author verifies the significant moderating role of political regime by applying regression analysis and further robustness checks.}
+%\cvitem{Mark}{\emph{8}}
+
+%\cvitem{}{}
+
+
+%\cvitem{Title}{\emph{(2019) European identity: Factors of Change}}
+%\cvitem{Abstract}{The article aims at the empirical re-operationalisation of the European identity concept through the construction of the empirically-valid concept based on the most relevant repeated cross-national survey research, such as European Values Study (and it's new 2017 issue), European Social Survey and Eurobarometer. The author tries to compile different shades of European identity through the questions of these particular surveys using PCA. Following the process of the construction of this concept, the author verifies several hypotheses about the role of the perception of the European institutions on the modification of the European identity, which occurred within the period 2010-2016, using multilevel mixed-effect model.}
+%\cvitem{Mark}{\emph{9}}
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Data analysis}{\textbf{R} \newline (Tidyverse: dplyr, ggplot2, tidyr, etc), \newline \newline \textbf{Python} \newline (NumPy, Pandas, Scikit-learn, Matplotlib, PyTorch), \newline \newline \textbf{SQL}}
+\cvitem{}{\href{https://github.com/wallykop}{GitHub}, \href{https://www.kaggle.com/wallykop/competitions}{Kaggle}}
+\cvitem{{Publishing software}}{ \textbf{\LaTeX}}
+\cvitem{Office software}{Microsoft Office}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Волонтерство}
+
+\cvitem{}{\href{http://www.ism.uw.edu.pl/en/narva-xviii-international-student-research-conference-neglecting-the-borders-6-dimensions-of-eu-rus-relations-2/}{XVIII International Student Research Conference.} \newline <<\textbf{\href{https://drive.google.com/open?id=1m38C19Uk-WT5pkl-KFyefdNQEEN_JE08}{Neglecting the borders: 6Dimensions of EU-RUS relations}}>> \newline (University of Tartu, Estonia, 19.04 -- 21.04.2018)}
+
+\section{Знание языков}
+
+\cvitemwithcomment{Russian}{Mothertongue}{}
+\cvitemwithcomment{English}{\href{https://drive.google.com/open?id=1M82EsiNx9vNerH4AwxD6UFfDWrWe2ZGC}{IELTS:} 7.5}{}
+\cvitemwithcomment{French}{Basic}{}
+\cvitemwithcomment{Latin}{Basic}{}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{13ex}
+
+\textit{Обновлено: \today}
+
+\end{document}

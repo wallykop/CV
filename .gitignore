@@ -1,4 +1,4 @@
 .texpadtmp/
 .DS_Store
-/*.tex
+*.tex
 /src/
